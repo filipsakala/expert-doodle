@@ -18,7 +18,7 @@ const StyledChevron = styled.div<{ count: number }>`
 
     @media screen and (max-width: 599px) {
       margin-left: initial;
-      margin-bottom: calc(100% / -${({ count }) => count} * 0.75 - 1px);
+      margin-bottom: calc(100% / -${({ count }) => count} * 0.95 - 1px);
     }
   }
 `;
